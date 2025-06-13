@@ -4,7 +4,7 @@ import argparse
 from huggingface_hub import hf_hub_download, list_repo_files
 
 VALID_SPLITS = ["all", "train", "test", "challenge"]
-VALID_FILES = ["all", "PE", "Win32", "Win64", "Dot_Net", "APK", "ELF", "PDF"]
+VALID_FILES = ["all", "Win32", "Win64", "Dot_Net", "APK", "ELF", "PDF"]
 
 
 def is_dir(file_path):
